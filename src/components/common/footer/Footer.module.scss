@@ -1,0 +1,26 @@
+.footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: white;
+    }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px){
+    .footer{
+       .container{
+        p{
+            font-size: 10px;
+        }
+       }
+    }
+}

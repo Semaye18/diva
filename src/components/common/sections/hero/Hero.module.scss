@@ -1,0 +1,34 @@
+.hero{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://rivon-demo.myshopify.com/cdn/shop/files/hero-image-size-1-2.png?v=1734416972&width=3840');
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    .container{
+        width: 60%;
+    .text{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    color:black;
+    button{
+        background-color: palevioletred;
+        color: white;
+        padding: 10px;
+        border: none;
+        &:hover{
+            border: 2px solid palevioletred;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+
+    }
+    }
+}

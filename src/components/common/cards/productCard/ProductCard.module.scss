@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    button{
+        color: black;
+        border: 2px solid black;
+        padding: 5px;
+        background-color: transparent;
+        &:hover{
+        color: white;   
+        background-color: black;
+    }
+}
+}
